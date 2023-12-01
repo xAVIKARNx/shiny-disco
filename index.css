@@ -1,0 +1,62 @@
+.score-bord {
+    margin:auto auto;
+    width:575px;
+    height: 385px;
+    background-image:url("score.jpg");
+    background-size:cover;
+    color: #EEEEEE;
+    border-radius:20px;
+    border: 2px solid black;
+
+}
+@font-face {
+    font-family: 'technology';
+    src: url('Technology-Bold.ttf');
+  }
+  
+@font-face {
+    font-family: 'thunder';
+    src: url('Thunderbold.ttf');
+  }
+
+#homeEl{
+    font-family:"thunder";
+    font-size: 35px;
+    margin-bottom:0px;
+}
+
+#guestEl{
+    font-family:"thunder";
+    font-size:35px;
+    margin-bottom:0px;
+}
+.score-bord {
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+   
+}
+
+#homeScore{
+    margin-top:0px;
+    font-family: technology;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius:5px;
+    
+}
+
+#guestScore{
+    margin-top:0px;
+    font-family: technology;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    border-radius:5px;
+    
+}
